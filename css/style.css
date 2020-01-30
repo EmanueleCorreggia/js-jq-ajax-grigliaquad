@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 900px;
+  height: 900px;
+  margin: auto;
+}
+
+.quadrato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  background: white;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 70px;
+}
